@@ -97,6 +97,7 @@ final class Funciones {
     }
 
     public static class funciones {
+
         /// Aquí esta el metodo: 1_ Mostrar mensaje fijo ////
         public static void mostrarsaludo() {
             System.out.println("Hola Mundo y Hola profe que esta probando el codigo jaja saludos");
@@ -109,7 +110,7 @@ final class Funciones {
         ///
         /// Aquí esta el metodo: 3_ Área de un rectángulo ////
         public static double CalcularAR(double base, double altura) {
-            return base * altura / (double)2.0F;
+            return base * altura;
         }
         ///
         /// Aquí esta el metodo: 4_ Convertir a mayúsculas ////
